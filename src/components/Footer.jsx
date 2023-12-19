@@ -5,8 +5,12 @@ import footer03 from "../assets/footer03.png";
 
 export const Footer = () => (
   <footer>
-    <img src={footer01} alt="Union Europea" className="imagenFooter"/>
-    <img src={footer02} alt="Gobierno de España" className="imagenFooter"/>
-    <img src={footer03} alt="Generalitat de Catalunya" className="imagenFooter"/>
+    <img src={footer01} alt="Union Europea" className="imagenFooter" />
+    <img src={footer02} alt="Gobierno de España" className="imagenFooter" />
+    <img
+      src={footer03}
+      alt="Generalitat de Catalunya"
+      className="imagenFooter"
+    />
   </footer>
 );

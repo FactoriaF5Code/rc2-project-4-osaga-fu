@@ -27,15 +27,15 @@ h3 {
   color: #fff;
 }
 
-h3:hover{
-    color:#02ffa1;
-    cursor: pointer;
+h3:hover {
+  color: #02ffa1;
+  cursor: pointer;
 }
 
 .buttonsContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .buttonSubscribe {
@@ -55,9 +55,9 @@ h3:hover{
   flex-shrink: 0;
 }
 
-.buttonSubscribe:hover{
-    background: #3de0a4;
-    border-color: #3de0a4;
+.buttonSubscribe:hover {
+  background: #3de0a4;
+  border-color: #3de0a4;
 }
 
 .buttonLogin {
@@ -80,5 +80,5 @@ h3:hover{
 }
 
 .buttonLogin:hover {
-    border-color: #c7cac9;
+  border-color: #c7cac9;
 }
