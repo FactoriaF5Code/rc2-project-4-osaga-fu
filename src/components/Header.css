@@ -1,5 +1,6 @@
 header {
-  max-height: 64px;
+  height: 64px;
+  width: 100%;
   background: #060613;
   padding: 4rem 5rem;
   display: flex;
@@ -31,8 +32,9 @@ h3:hover{
     cursor: pointer;
 }
 
-section {
+.buttonsContainer {
     display: flex;
+    flex-direction: row;
     gap: 2rem;
 }
 
