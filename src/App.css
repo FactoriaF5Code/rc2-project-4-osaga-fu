@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Graphik";
+  src: local("Graphik"), url(./fonts/Graphik-Medium.ttf) format("truetype");
+}
+
+html {
+  font-size: 10px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #060613;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  line-height: normal;
+  cursor: pointer;
+  background-color: transparent;
+}

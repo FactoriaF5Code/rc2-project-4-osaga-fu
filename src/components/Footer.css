@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  padding: 7rem 5rem;
+  height: 107px;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid #5d606b;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+
+.imagenFooter:hover {
+  filter: brightness(150%);
+  cursor: pointer;
+}
