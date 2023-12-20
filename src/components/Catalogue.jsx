@@ -19,6 +19,10 @@ export const Catalogue = () => (
             src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
             alt={movie.original_title}
           />
+          <div className="movieSummary">
+            <h4 className="highlighted">{movie.original_title}</h4>
+            <p>{movie.overview}</p>
+          </div>
         </article>
       ))}
     </section>

@@ -25,6 +25,8 @@ h3 {
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
 }
 
 h3:hover {
@@ -41,7 +43,6 @@ h3:hover {
 .buttonSubscribe {
   font-family: "Graphik";
   text-transform: uppercase;
-  font-weight: bolder;
   font-size: 1.3rem;
   background: #02ffa1;
   border-color: #02ffa1;
@@ -53,6 +54,8 @@ h3:hover {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
 }
 
 .buttonSubscribe:hover {
@@ -63,7 +66,6 @@ h3:hover {
 .buttonLogin {
   font-family: "Graphik";
   text-transform: uppercase;
-  font-weight: bolder;
   font-size: 1.3rem;
   color: #fff;
   width: 140px;
