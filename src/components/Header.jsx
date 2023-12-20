@@ -1,7 +1,7 @@
 import "./Header.css";
 import logo from "../assets/filminLogo.png";
 
-export const Header = () => (
+export default function Header() {
   <header>
     <nav>
       <img src={logo} alt="Logo Filmin" className="logo" />
@@ -13,4 +13,4 @@ export const Header = () => (
       <button className="buttonLogin">Iniciar Sesión</button>
     </section>
   </header>
-);
+}
