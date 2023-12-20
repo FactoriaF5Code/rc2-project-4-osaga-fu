@@ -3,7 +3,7 @@ import catalogueData from "../data/data.json";
 
 export const Catalogue = () => (
   <main>
-    <span>Numero de peliculas</span>
+    <span>{catalogueData.results.length} películas</span>
     <section>
       {catalogueData.results.map((movie) => (
         <article key={movie.id}>
