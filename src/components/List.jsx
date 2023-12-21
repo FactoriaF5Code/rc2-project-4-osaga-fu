@@ -6,10 +6,9 @@ import { useRef } from "react";
 import { useState } from "react";
 
 export default function List() {
-
   const [isMoved, setIsMoved] = useState(false);
   const [slideNumber, setSlideNumber] = useState(0);
-  
+
   const listRef = useRef();
 
   const handleClick = (direction) => {
@@ -34,12 +33,10 @@ export default function List() {
           id="overRide01"
           className="sliderArrow left"
           onClick={() => handleClick("left")}
-          style={{display: !isMoved && "none" }}
+          style={{ display: !isMoved && "none" }}
         />
         <div className="container" ref={listRef}>
-          
           <ListedItems />
-          
         </div>
         <ArrowForwardIosOutlined
           id="overRide02"

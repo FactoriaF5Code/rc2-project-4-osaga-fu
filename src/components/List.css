@@ -22,13 +22,13 @@
 }
 
 .left {
-   left: 0;
-   z-index: 3; 
+  left: 0;
+  z-index: 3;
 }
 
 .right {
-    right: 0;
-    top: 0;
+  right: 0;
+  top: 0;
 }
 
 .container {
@@ -36,7 +36,7 @@
   gap: 1.7rem;
   width: max-content;
   transform: translateX(0px);
-  transition: all 1s ease; 
+  transition: all 1s ease;
 }
 
 #overRide01,
