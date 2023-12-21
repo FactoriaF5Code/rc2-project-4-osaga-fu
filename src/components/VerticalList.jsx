@@ -1,9 +1,9 @@
-import "./List.css";
+import "./VerticalList.css";
 import { ArrowBackIosNewOutlined } from "@mui/icons-material";
 import { ArrowForwardIosOutlined } from "@mui/icons-material";
-import ListedItems from "./ListedItems";
 import { useRef } from "react";
 import { useState } from "react";
+import VerticalListedItems from "./VerticalListedItems";
 
 export default function List({ listName }) {
   const [isMoved, setIsMoved] = useState(false);
@@ -18,10 +18,10 @@ export default function List({ listName }) {
 
     if (direction === "left" && slideNumber > 0) {
       setSlideNumber(slideNumber - 1);
-      listRef.current.style.transform = `translateX(${367 + distance}px)`;
+      listRef.current.style.transform = `translateX(${260 + distance}px)`;
     } else if (direction === "right" && slideNumber < 15) {
       setSlideNumber(slideNumber + 1);
-      listRef.current.style.transform = `translateX(${-367 + distance}px)`;
+      listRef.current.style.transform = `translateX(${-260 + distance}px)`;
     }
   };
 
@@ -36,7 +36,7 @@ export default function List({ listName }) {
           style={{ display: !isMoved && "none" }}
         />
         <div className="container" ref={listRef}>
-          <ListedItems />
+          <VerticalListedItems />
         </div>
         <ArrowForwardIosOutlined
           id="overRide02"
