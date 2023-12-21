@@ -1,0 +1,46 @@
+.list {
+  width: 100%;
+}
+
+.listTitle {
+  display: flex;
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.sliderArrow {
+  background-color: rgba(0, 0, 0, 0.465);
+  color: #fff;
+  position: absolute;
+  height: 100%;
+  cursor: pointer;
+}
+
+.left {
+   left: 0;
+   z-index: 3; 
+}
+
+.right {
+    right: 0;
+    top: 0;
+}
+
+.container {
+  display: flex;
+  gap: 1.7rem;
+  width: max-content;
+  transform: translateX(0px);
+  transition: all 1s ease; 
+}
+
+#overRide01,
+#overRide02 {
+  height: 100%;
+  width: 50px;
+}
