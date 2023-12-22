@@ -1,7 +1,7 @@
-import "./ListedItems.css";
+import "./HorizontalListedItems.css";
 import catalogueData from "../data/data.json";
 
-export default function ListedItems() {
+export default function HorizontalListedItems() {
   const data = catalogueData.results;
 
   return (
@@ -14,10 +14,12 @@ export default function ListedItems() {
             alt={movie.original_title}
           />
           <div className="movieSummary">
-            <h4 className="highlighted">{movie.original_title}</h4>
-            <h5>{movie.title}</h5>
-            <h3 className="releaseDate">{movie.release_date}</h3>
-            <div className="voteAverage">{movie.vote_average}</div>
+            <span className="headerSummary">
+              <h4 className="highlighted">{movie.original_title}</h4>
+              <h5>{movie.title}</h5>
+              <h3 className="releaseDate">{movie.release_date}</h3>
+              <div className="voteAverage">{movie.vote_average}</div>
+            </span>
             <p>{movie.overview}</p>
           </div>
         </article>

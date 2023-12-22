@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import "./VerticalList.css";
 import { ArrowBackIosNewOutlined } from "@mui/icons-material";
 import { ArrowForwardIosOutlined } from "@mui/icons-material";
@@ -5,7 +7,9 @@ import { useRef } from "react";
 import { useState } from "react";
 import VerticalListedItems from "./VerticalListedItems";
 
-export default function List({ listName }) {
+
+export default function VerticalList({ listName }) {
+  
   const [isMoved, setIsMoved] = useState(false);
   const [slideNumber, setSlideNumber] = useState(0);
 

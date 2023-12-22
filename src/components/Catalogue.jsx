@@ -1,12 +1,14 @@
 import "./Catalogue.css";
-import List from "./List";
+import HorizontalList from "./HorizontalList";
 import VerticalList from "./VerticalList"
 
 export default function Catalogue() {
   return (
     <main>
-      <List listName="Nuestros estrenos" />
+      <HorizontalList listName="Nuestros estrenos" />
       <VerticalList listName="Orden alfabético" />
+      <VerticalList listName="Mejor valoradas" />
+      <VerticalList listName="Más vistas en España" />
     </main>
   );
 }
