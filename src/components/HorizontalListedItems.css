@@ -1,0 +1,101 @@
+.horizontalList {
+  max-width: 100%;
+  display: flex;
+  gap: 1.7rem;
+  transition: transform 300ms ease 100ms;
+}
+
+.horizontalArticle {
+  display: flex;
+  height: 200px;
+  width: 347px;
+  justify-content: center;
+  align-items: end;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 500ms ease 200ms;
+}
+
+.horizontalArticle:hover {
+  height: 400px !important;
+}
+
+.poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(80%);
+}
+
+h4 {
+  font-family: "Graphik";
+  color: #fff;
+  font-size: 2rem;
+}
+
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.movieSummary {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to top, black, transparent);
+  padding: 1rem;
+  border-radius: 4px;
+  opacity: 0;
+  transition-duration: 0.6s;
+  transition-delay: 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.headerSummary {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieSummary:hover {
+  opacity: 1;
+}
+
+.highlighted {
+  color: #02ffa1;
+}
+
+.voteAverage {
+  font-family: "Graphik";
+  font-size: 1.5rem;
+  background-color: #5d606b;
+  color: #fff;
+  display: flex;
+  width: 40px;
+  height: 28px;
+  padding: 4px 6.04px 4.5px 6.24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 3px;
+  align-self: flex-end;
+  position: absolute;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: justify;
+  padding-top: 1rem;
+}
