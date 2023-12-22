@@ -1,9 +1,9 @@
 .verticalList {
-    max-width: 100%;
-    display: flex;
-    gap: 1.7rem;
-    transition: transform 300ms ease 100ms;
-  }
+  max-width: 100%;
+  display: flex;
+  gap: 1.7rem;
+  transition: transform 300ms ease 100ms;
+}
 
 .verticalArticle {
   display: flex;
@@ -21,7 +21,7 @@
 
 .verticalArticle:hover {
   transform: scale(1.4) !important;
-  z-index:9;
+  z-index: 9;
 }
 
 .verticalPoster {
