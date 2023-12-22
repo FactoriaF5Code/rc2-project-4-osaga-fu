@@ -1,6 +1,6 @@
 import "./Catalogue.css";
 import HorizontalList from "./HorizontalList";
-import VerticalList from "./VerticalList"
+import VerticalList from "./VerticalList";
 
 export default function Catalogue() {
   return (
