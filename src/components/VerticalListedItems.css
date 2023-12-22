@@ -16,6 +16,12 @@
   position: relative;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 500ms ease 200ms;
+}
+
+.verticalArticle:hover {
+  transform: scale(1.4) !important;
+  z-index:9;
 }
 
 .verticalPoster {
